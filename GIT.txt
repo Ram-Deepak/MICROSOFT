@@ -1,0 +1,18 @@
+CLONING A REPOSITORY:
+
+git-clone@ubuntu:~$ git clone https://github.com/cameronmcnz/my-github-repo.git
+git-clone@ubuntu:~$ cd my-github-repo
+git-clone@ubuntu:~$ git config --global user.email "ubuntu-clone@example.com"
+git-clone@ubuntu:~$ git config --global user.name "cameronmcnz"
+
+
+PUSHING FILES AND COMMITING IT:
+git-clone@ubuntu:~$ touch my-file.html
+git-clone@ubuntu:~$ git add .
+git-clone@ubuntu:~$ git commit -m "strong commit message"
+git-clone@ubuntu:~$ git push origin main
+git-clone@ubuntu:~$ git reflog
+
+Your password is your personal access token
+It expires in 30 days
+So don't forget to get a personal access token
